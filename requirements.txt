@@ -1,6 +1,6 @@
 streamlit
 requests
-sklearn
+scikit-learn
 ipapi
 hashlib
 numpy
