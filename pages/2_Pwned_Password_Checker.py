@@ -16,8 +16,8 @@ def request_api_data(query_char):
     res = requests.get(url)
 
     if res.status_code != 200:
-        raise RuntimeError(f"ERROR FETCHING: {
-                           res.status_code}, CHECK API AND TRY AGAIN")
+        raise RuntimeError(
+            f"ERROR FETCHING: {res.status_code}, CHECK API AND TRY AGAIN")
     return res
 
 
