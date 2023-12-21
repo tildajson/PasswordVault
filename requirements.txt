@@ -2,7 +2,6 @@ streamlit
 requests
 scikit-learn
 ipapi
-hashlib
 numpy
 pandas
 matplotlib
