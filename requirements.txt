@@ -1,3 +1,10 @@
-requests
 streamlit
+requests
+sklearn
 ipapi
+hashlib
+numpy
+pandas
+matplotlib
+seaborn
+xgboost
