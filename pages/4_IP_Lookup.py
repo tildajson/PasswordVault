@@ -16,7 +16,7 @@ if st.button("Search"):
             st.write("City: ", data["city"])
             st.write("Region: ", data["region"])
             st.write("Country: ", data["country_name"])
-            st.write("Postal Code: ", data["postal"])
+            st.write("Postal Code: ", str(data["postal"]))
             st.write("Latitude: ", str(data["latitude"]))
             st.write("Longitude: ", str(data["longitude"]))
             st.write("Service Provider: ", data["org"])
